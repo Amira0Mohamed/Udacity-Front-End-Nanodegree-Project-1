@@ -3,12 +3,9 @@
 <head>
 	<title>SERVICES</title>
     <meta charset="utf-8">
+    <link rel="icon" href="static/assets/logo/icon.png">
 	<link rel="stylesheet" type="text/css" href="static/css/style.css">
-    <script type="text/javascript">
-        function show(){;
-            document.getElementById("vid").style.display = "block";
-        }
-    </script>
+    <script type="text/javascript" src="static/js/script.js"></script>
 </head>
 <body>
     <header>
@@ -21,26 +18,25 @@
                 <li class="active"><a href="">SERVICES</a></li>
                 <li><a href="">ABOUT</a></li>
                 <li><a href="contact.html">CONTACT</a></li>
-                <li><a href="">NEWS</a></li>
+                <li><a href="news.html">NEWS</a></li>
                 <li><a href="">FAQ</a></li>
 
             </ul>
         </div>
         <br>
-        <div style='margin-top: 10%;'>
-            <div class="botton1">
-                <button class="btn btn-one" onclick="show()">WATCH VIDEO</button>
-                <a href="index.html" class="btn btn-two">EXPLORE MORE</a>
-            </div>
-            <br><br>
-            <div>
-                <center>
-                    <video id="vid" width="400" hidden controls>
-                        <source src="static/assets/video/1.mp4" type="video/mp4">
-                        Your browser does not support HTML5 video.
-                    </video>
-                </center>
-            </div>
+        <div class="button1">
+            <button class="btn btn-one" onclick="show()">WATCH VIDEO</button>
+            <a href="index.html" class="btn btn-two">EXPLORE MORE</a>
+        </div>
+        <br><br>
+        <div>
+            <center id="vid" hidden>
+                <video width="400" controls>
+                    <source src="static/assets/video/1.mp4" type="video/mp4">
+                    Your browser does not support HTML5 video.
+                </video>
+                <figcaption class="fig-color"><u>Our approach</u></figcaption>
+            </center>
         </div>
     </header>
 </body>

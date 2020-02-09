@@ -36,12 +36,12 @@ header
 {
    border:1px solid white;	
 }
-.botton a.active
+.button a.active
 {
 	border:1px solid white;
  	
 }
-.botton a:hover
+.button a:hover
 {
 	border:1px solid white;
  	
@@ -77,11 +77,21 @@ h1
 	font-size:70px;
 	text-align: center;
 	margin-top: 275px;
+	font-style: italic;
 }
-.botton
+.button
 {
 	margin-top: 30px;
 	margin-left: 440px;
+}
+.post
+{
+	margin-top: 20%;
+	margin-left: 20%;
+	background: #c0d1c5;
+	padding: 20px;
+	width: 50%;
+	box-shadow: 5px 5px 15px rgba(0,0,0,0.9);
 }
 .btn
 {
@@ -112,9 +122,9 @@ h1
 	font-family: "Roboto", sans-serif;
 
  }
-.botton1
+.button1
 {
-	margin-top: 0px;
+	margin-top: 10%;
 	margin-left: 440px;	
 }
 .btn
@@ -151,4 +161,7 @@ h1
 {
 	background-color: darkorange;
 	transition: all 0.1s ease-in;
+}
+.fig-color{
+	color: white;
 }
